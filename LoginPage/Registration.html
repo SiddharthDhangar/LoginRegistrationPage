@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Page</title>
+    <link rel="stylesheet" href="login.css" />
+  </head>
+  <body>
+    <section id="main-box">
+      <div class="image-box">
+        <div
+          class="login-form"
+          style="height: 730px; position: absolute; top: 3%"
+        >
+          <form action="">
+            <h1>Sign Up</h1>
+            <p>See your growth and get consulting support!</p>
+            <div class="loginOption">
+              <div
+                style="
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                "
+              >
+                <button
+                  class="google"
+                  style="
+                    border: 1px solid red;
+                    width: 390px;
+                    border-radius: 30px;
+                    margin-left: 40px;
+                  "
+                >
+                  <!-- Sign Up Instagram -->
+                  <div
+                    style="
+                      display: flex;
+                      justify-content: center;
+                      align-items: center;
+                      text-align: center;
+                      gap: 10px;
+                    "
+                  >
+                    <img
+                      src="https://static.vecteezy.com/system/resources/previews/018/930/415/non_2x/instagram-logo-instagram-icon-transparent-free-png.png"
+                      alt=""
+                      style="height: 30px; display: flex; align-items: center"
+                    />
+                    <span style="color: red; font-size: 20px"
+                      ><a
+                        href="https://www.instagram.com/accounts/login/"
+                        style="text-decoration: none; color: inherit"
+                        >Sign up with Instagram</a
+                      ></span
+                    >
+                  </div>
+                  <!--   Sign Up Instagram  -->
+                </button>
+              </div>
+            </div>
+            <br />
+            <div
+              style="
+                display: flex;
+                align-items: center;
+                text-align: center;
+                justify-content: center;
+                margin-right: 90px;
+              "
+            >
+              <hr style="width: 70px" />
+              <span style="font-size: 30px; color: gray"
+                >or Sign up with Email</span
+              >
+              <hr style="width: 70px" />
+            </div>
+
+            <!-- Alernative Option -->
+            <div class="input">
+              <label for="Username">Name*</label>
+              <br />
+              <input
+                type="text"
+                name="Username"
+                id="Username"
+                placeholder="   Username"
+                required
+              />
+              <br /><br /><br />
+              <label for="email">Email Address*</label>
+              <br />
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="   you@example.com"
+                required
+              />
+              <br /><br /><br /><br />
+              <div class="PasswordAlign">
+                <label for="password">Password*</label>
+              </div>
+              <br />
+              <input
+                type="password"
+                name="password"
+                id="password"
+                placeholder="   Enter 6 character or more"
+                required
+              />
+              <br />
+              <br />
+              <button class="login" style="border-radius: 50px">
+                <span>Sign Up</span>
+              </button>
+            </div>
+            <!-- Alernative Option -->
+
+            <br />
+            <!-- Sign In Redirect -->
+            <div
+              style="
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                margin-right: 90px;
+              "
+            >
+              <span style="font-size: 25px">Already have an Account?</span>
+              <a
+                href="http://127.0.0.1:5500/LoginPage/login.html"
+                style="text-decoration: none; font-size: 30px"
+              >
+                Sign in</a
+              >
+            </div>
+            <!-- Sign In Redirect -->
+          </form>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Page</title>
+    <!-- Css Links -->
+    <link rel="stylesheet" href="login.css" />
+  </head>
+  <body>
+    <section id="main-box">
+      <div class="image-box">
+        <div class="login-form">
+          <form action="">
+            <!-- Sign Up -->
+            <h1>Login</h1>
+            <p>
+              Doesn't have an account yet?<a
+                href="http://127.0.0.1:5500/LoginPage/Registration.html"
+                style="text-decoration: none"
+                >Sign Up</a
+              >
+            </p>
+            <!-- Sign Up -->
+
+            <br />
+
+            <!-- Email And Password -->
+            <div class="input">
+              <label for="email">Email Address*</label>
+              <br />
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="   you@example.com"
+                required
+              />
+              <br /><br /><br /><br />
+              <div class="PasswordAlign">
+                <label for="password">Password*</label>
+                <a class="link" href="" style="text-decoration: none"
+                  >Forgot Password?</a
+                >
+              </div>
+              <br />
+              <input
+                type="password"
+                name="password"
+                id="password"
+                placeholder="   Enter 6 character or more"
+                required
+              />
+              <!-- Email and Password -->
+
+              <br />
+
+              <!-- Remeber Me  -->
+              <div
+                style="
+                  width: 240px;
+                  display: flex;
+                  justify-content: start;
+                  gap: 30px;
+                  align-items: center;
+                  margin-top: 2px;
+                "
+              >
+                <input
+                  type="checkbox"
+                  style="height: 30px; border-radius: 20px; display: inline"
+                />
+
+                <div
+                  style="
+                    height: 60px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center;
+                    gap: 10px;
+                    color: gray;
+                    font-size: 30px;
+                  "
+                >
+                  <span>Remember </span> me
+                </div>
+              </div>
+              <!-- Remember Me -->
+              <button class="login">
+                <span>LOGIN</span>
+              </button>
+            </div>
+            <br /><br />
+
+            <!-- Login Option -->
+            <div
+              style="
+                display: flex;
+                align-items: center;
+                text-align: center;
+                justify-content: center;
+                margin-right: 90px;
+              "
+            >
+              <hr style="width: 120px" />
+              <span style="font-size: 30px; color: gray">or login with</span>
+              <hr style="width: 120px" />
+            </div>
+            <div class="loginOption" style="display: flex; margin-left: 50px">
+              <button class="google" style="border: 1px solid red">
+                <div
+                  style="
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center;
+                    gap: 10px;
+                  "
+                >
+                  <img
+                    src="GooGlele.png"
+                    alt=""
+                    style="height: 24px; display: flex; align-items: center"
+                  />
+
+                  <span style="color: red">
+                    <a
+                      style="text-decoration: none; color: inherit"
+                      href="https://accounts.google.com/v3/signin/identifier?service=accountsettings&continue=https%3A%2F%2Fmyaccount.google.com%2F%3Futm_source%3Dsign_in_no_continue%26pli%3D1&ec=GAlAwAE&hl=en&authuser=0&ddm=1&flowName=GlifWebSignIn&flowEntry=AddSession"
+                      >Google
+                    </a></span
+                  >
+                </div>
+              </button>
+              <button class="fb" style="border: 1px solid blue">
+                <div
+                  style="
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center;
+                    gap: 10px;
+                  "
+                >
+                  <i class="fa-brands fa-facebook-f"></i>
+                  <span
+                    style="
+                      color: blue;
+                      gap: 24px;
+                      display: gird;
+                      justify-content: center;
+                    "
+                  >
+                    <a
+                      href="https://en-gb.facebook.com/login/web/"
+                      style="text-decoration: none; color: inherit"
+                      >Facebook</a
+                    ></span
+                  >
+                </div>
+              </button>
+            </div>
+            <!-- Social Login Option -->
+          </form>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
